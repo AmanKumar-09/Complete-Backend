@@ -23,7 +23,7 @@ const personSchema = new mongoose.Schema(
     address: {
       type: String,
     },
-    salary: {
+    sallary: {
       type: Number,
     },
   },
