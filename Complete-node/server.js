@@ -22,7 +22,7 @@ app.use("/person" , routerPerson)
 app.use("/item", routerMenuItem)
 
 app.listen(PORT, () =>{
-    console.log(`listening on PORT ${PORT}`);
+    console.log(`listening on the PORT ${PORT}`);
 })
 
 
