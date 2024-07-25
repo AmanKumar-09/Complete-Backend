@@ -1,8 +1,7 @@
 const express = require("express")
 
 const router  = express.Router()
-const MenuItem = require("../model/menuItem.model")
-const { takeRightWhile } = require("lodash")
+const MenuItem = require("../model/menuItem.model.js")
 
 // create menu item - post create a database 
 router.post("/", async(req, res) =>{

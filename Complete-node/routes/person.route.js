@@ -14,8 +14,8 @@ router.post("/", async(req, res) =>{
         res.status(200).json(
             {
                 success: true,
-                data: newperson,
-                message: " person added successfully",
+                data: response,
+                message: " new person  added successfully",
             }
         )
     } catch (error) {
