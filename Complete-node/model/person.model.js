@@ -78,9 +78,6 @@ personSchema.pre('save', async function(next) {
 
    
 
-    
-
-
  } )
 
 
